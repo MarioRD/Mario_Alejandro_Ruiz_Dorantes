@@ -1,0 +1,22 @@
+:root{
+  --primary: #2b7cff;
+  --bg: #f8f9fb;
+}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  margin: 0;
+  padding: 2rem;
+  color: #111;
+}
+h1{
+  color: var(--primary);
+}
+button{
+  padding: 0.6rem 1rem;
+  border: none;
+  background: var(--primary);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
